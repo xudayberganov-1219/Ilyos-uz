@@ -1,0 +1,298 @@
+.page-header{
+    margin: 0;
+    padding: 5;
+    background-color: black;
+    height: 85px;
+    display: flex;
+    width: 100%;
+}
+.page-section{
+    display: flex;
+    gap: 180px;
+}
+.page-logo{
+    display: flex;
+    gap: 50px;
+}
+.header-logo{
+    margin-left: 20px;
+    height: 70px;
+    width: 70px;
+    padding: 7px;
+    margin-right: 400px;
+    box-shadow: 1px 1px 20px red;
+}
+h4{
+    text-align: left;
+    margin-left: 130px;
+    margin-top: -50px;
+    font-size: 30px;
+    color: rgb(246, 250, 18);
+    text-shadow: 5px 7px 20px red;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+h3{
+    color: rgb(248, 248, 245);
+    font-size: 32px;
+    text-align: center;
+    padding-top: -13px;
+    box-shadow: 8px 10px 20px red;
+    margin-right: 20px;
+}
+.header-nav{
+    display: flex;
+    gap: 50px;
+    margin: 7px;
+    padding-top: 30px;
+}
+
+.header-nav-link1{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-top: 5px;
+    color: rgb(244, 248, 21);
+    font-size: 22px;
+    box-shadow: 3px 5px 7px red;
+    font-weight: 700;
+    text-align: center;
+}
+.header-nav-link1:hover{
+    box-shadow: 3px 5px 7px rgb(74, 248, 21);;
+    color: red;
+    margin-left: 5px;
+    margin-top: -10px;
+    padding-bottom: -5px;
+}
+
+.header-nav-link2{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-top: 5px;
+    color: rgb(244, 248, 21);
+    font-size: 22px;
+    box-shadow: 3px 5px 7px red;
+    font-weight: 700;
+    text-align: center;
+}
+.header-nav-link2:hover{
+    box-shadow: 3px 5px 7px rgb(74, 248, 21);
+    color: red;
+    margin-left: 5px;
+    margin-top: -5px;
+    padding-bottom: -5px;
+}
+.header-nav-link3{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-top: 5px;
+    color: rgb(244, 248, 21);
+    font-size: 22px;
+    box-shadow: 3px 5px 7px red;
+    font-weight: 700;
+    text-align: center;
+}
+.header-nav-link3:hover{
+    box-shadow: 3px 5px 7px rgb(74, 248, 21);
+    color: red;
+    margin-left: 5px;
+    margin-top: -5px;
+    padding-bottom: -5px;
+}
+
+.header-btn{
+
+    font-size: 21px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: normal;
+    background-color: black;
+    color: red;
+    box-shadow: 3px 3px 15px rgb(246, 246, 250);
+    height: 44px;
+    margin-top: 35px;
+    padding: 10px;
+    width: 88px;
+    border-radius: 25em;
+    border: none;
+    position: relative;
+    cursor: pointer;
+    overflow: hidden;
+    z-index: 1;
+}
+.header-btn::before{
+    content: " ";
+    width: 0;
+    height: 44px;
+    border-radius: 25em;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-image: linear-gradient(to
+        right, #0fd850 0%, #f9f047 100%);
+    transition: .7s ease-in-out;
+    display: block;
+    z-index: -1;
+    
+}
+.header-btn:hover::before {
+    width: 88px;
+}
+body {
+    margin: 0;
+}
+
+.social-links {
+    position: fixed; /* Oynaning o'ng tomonida joylashishi uchun */
+    right: 0;
+    top: 50%; /* O'rtaga joylashishi uchun */
+    transform: translateY(-50%); /* O'rtaga joylashishi uchun */
+    display: flex;
+    flex-direction: column; /* Qatorma-qator joylashishi uchun */
+    gap: 1px; /* Orasidagi masofa */
+    box-shadow: 1px 1px 20px red;
+    padding: 5px;
+    border-radius: 8px;
+    background-color: black;
+}
+
+.social-links a img {
+    width: 40px; /* Balandlik */
+    height: 40px; /* Kenglik */
+    border-radius: 3px; /* Burchaklar yumshoq bo'lishi uchun */
+}
+.submenu {
+    display: none;
+    margin-left: 20px;
+    background-color: black;
+    width: 130px;
+    padding: 5px;
+    border-radius: 5px;
+    box-shadow: 1px 1px 20px yellow;
+}
+.b{
+    color: yellow;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.b:hover{
+    color: #0fd850
+}
+.aa{
+    color: yellow;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.aa:hover{
+    color: #0fd850
+}
+.aaa{
+    color: yellow;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.aaa:hover{
+    color: #0fd850
+}
+.menu-item:hover .submenu {
+    display: block;
+}
+.page-section-two{
+    background-image: url(./rrrrr.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    margin-top: 2px;
+    background-color: rgb(27, 27, 27);
+    width: 100%;
+    height: 800px;
+    box-shadow: 1px 1px 20px red;
+    display: flex;
+}
+.chartes{
+    padding-top: 100px;
+    color: white;
+    text-align: left;
+    padding-left: 100px;
+    font-size: 48px;
+    text-shadow: 5px 7px 20px red;
+}
+p{
+    color: #f9f047;
+    font-size: 30px;
+    text-align: left;
+    animation: moveText 3s forwards; /* Animatsiya */
+    position: absolute;
+    
+}
+.pp{
+    color: aliceblue;
+    padding-left: 100px;
+    text-align: right;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.section-img{
+    height: 571px;
+    width: 585px;
+    margin-left: 770px;
+    margin-top: 100px;
+    border-radius: 500px;
+    box-shadow: 1px 1px 20px  red;
+}
+.section-img:hover{
+    rotate: 100deg;
+}
+h6{
+    font-size: 14px;
+    color: rgb(27, 27, 27);
+    text-align: center;
+    margin-left: 770px;
+}
+h6:hover{
+    color: yellow;
+    text-shadow: 1px 1px 20px red;
+}
+.search{
+    display: flex;
+    gap: 20px;
+}
+.text2{
+    border-radius: 7px;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: 100px;
+    box-shadow: 1px 1px 20px red;
+    color: red;
+}
+.btn{
+    font-size: 20px;
+    border-radius: 7px;
+    padding: 5px;
+    background-color: yellow;
+    box-shadow: 1px 1px 20px red;
+    border: none;
+    position: relative;
+    cursor: pointer;
+    overflow: hidden;
+    z-index: 1;
+}
+.btn::before{
+    content: " ";
+    width: 0;
+    height: 44px;
+    border-radius: 7px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-image: linear-gradient(to
+        right, red 0%, #f9f047 100%);
+    transition: .7s ease-in-out;
+    display: block;
+    z-index: -1;
+    
+}
+.btn:hover::before {
+    width: 88px;
+} 
+@keyframes moveText {
+    0% {
+        left: 0; /* Boshlanish joyi */
+    }
+    100% {
+        left: 100px; /* 200px yuradi */
+    }
+}
